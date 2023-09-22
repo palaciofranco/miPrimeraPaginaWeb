@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Arial;
+}
+body{
+    background-color: #EABE3F;
+    font-size: 12px;
+}
+h1{
+    color: black;
+    font-size: 12px;
+}
+header{
+    background-color: gray ;
+ 
+}
+nav{
+    border: inset blueviolet 10px;
+}
+ul.menu{
+    background-color: black
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden ;
+  }
+li{
+    float: left;
+    border-right: 2px solid gold;
+}
+li a{color: white;
+    display: flex;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    justify-content: space-between;
+
+}
+.active{
+    background-color: rgb(135, 105, 225)}
+li a:hover:not(.active){
+    background-color: skyblue;
+
+}
+main{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 30px;
+    border: 10px solid black;
+}
+img{s
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    width: 700px;
+    border: 5px solid #EABE3F ;
+   
+
+}
+footer{
+    color: green;
+    background-color: black;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+    
+}
+div{
+    background-color: blueviolet;
+    font-size: large;
+    font-style: oblique;
+    color: blue;
+    margin: 25px 40px 20px 30px;
+    border: 8px solid #01c4e7;
+}
+p{
+    color: antiquewhite;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span{
+    color: purple;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
